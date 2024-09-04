@@ -1,0 +1,130 @@
+.header {
+    height: 120px;
+    background-image: linear-gradient(0,#fe6433,#f53e2d);
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.heder__navbar-item:hover,.heder__navbar-item--link:hover {
+    cursor: pointer;
+    color: rgb(255,255,255,0.7);
+}
+
+.header__navbar-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 4px;
+
+}
+
+.heder__navbar-item {
+    margin: 8px;
+    position: relative;
+}
+
+.heder__navbar-item,
+.heder__navbar-item--link {
+    display: inline-block;
+    font-size: 1.4rem;
+    color:var(--white-color);
+    /* Bỏ gạch chân */
+    text-decoration: none; 
+    font-weight: 300;
+}
+
+.heder__navbar-item--bolder {
+    font-weight: 400;
+}
+
+.heder__navbar-item--separate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 2px solid #ffacac ;
+    height: 16px;
+    right: -9px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+
+.header__navbar-icon-link {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.heder__navbar-item--notify:hover .header_notify {
+    display: block;
+}
+
+.header_notify {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 400px;
+    right: 0;
+    background-color: var(--white-color);
+    /* Điều chỉnh tâm animation */
+    transform-origin: top right;
+    animation:headerNotify ease-in 0.2s ;
+}
+
+@keyframes headerNotify  {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform:scale(1);
+    }
+}
+
+.header_notify-header {
+    height: 20px;
+    background-color: var(--white-color);
+}
+
+.header_notify-header h3 {
+    color: #666;
+    margin: 0 0 0 10pxpx;
+    font-size: 1.4rem;
+}
+
+.hear_notify-info {
+    padding-left: 20px;
+    color: #444;
+    display: block;
+}
+
+
+.container {
+    background-color: #f5f5f5;
+}
+
+.category {
+    border-radius: 5px;
+    background-color: var(--white-color);
+}
+
+.category-list {
+    list-style: none;
+}
+
+.category-item {
+    font-size: 1.2em;
+}
+
+.category_heading { 
+   font-size: 1.4em;    
+   border-bottom: 2px solid rgb(0,0,0,0.05);  
+   padding: 12px 16px;
+}
+
+
+
+
+

@@ -1,0 +1,56 @@
+:root {
+    /* khai báo thẻ gốc html */
+    --white-color:#fff;
+    --back-color:#000;
+    --text-color:#333;
+}
+
+* {
+    /*Tất cả box-sizing kế thừa từ html  */
+    box-sizing: ỉnherit;
+}
+
+html {
+    /* 1rem = 16px, để lấy 3/4 hay 12px nên đặt lại qui định {1rem = 10px}*/
+    font-size:62.5%;
+    line-height: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    /* flexbox */
+    width: 1200px;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.grid__column-2 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.667%;
+}
+
+.grid__column-10 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 73.333%;
+}
+
+
+
+
+
+
+
