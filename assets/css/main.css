@@ -142,6 +142,7 @@
 .home-filter__page {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .home-filter__label {
@@ -152,7 +153,7 @@
 
 .home-filter-btn {
     margin-right: 12px;
-    min-width: 80px;
+    max-width: 90px;
 }
 
 .select-input__icon {
