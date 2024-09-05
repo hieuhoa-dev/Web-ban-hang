@@ -151,8 +151,8 @@
 }
 
 .home-filter-btn {
-margin-right: 12px;
-    width: 80px;
+    margin-right: 12px;
+    min-width: 80px;
 }
 
 .select-input__icon {

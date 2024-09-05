@@ -49,7 +49,7 @@ html {
 }
 
 .btn {
-    min-width: 124px;
+    width: 124px;
     height:34px;
     text-decoration: none;
     border: none;
