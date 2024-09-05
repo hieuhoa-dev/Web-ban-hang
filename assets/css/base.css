@@ -68,6 +68,7 @@ html {
 
 /*List Selection  */
 .select-input {
+    position: relative;
     height:34px;
     padding: 0 12px;
     border-radius: 3px;
@@ -82,6 +83,34 @@ html {
     font-size: 1.4 rem;
 }
 
+.select-input_list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+    background-color: var(--white-color);
+    border-radius: 3px;
+    padding: 8px 16px;
+    list-style: none;
+
+}
+
+.select-input_link {
+    font-size: 1.4 rem;
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 4px 0;  
+    display: none; 
+}
+
+.select-input:hover .select-input_link {
+    display: block;
+}
+
+.select-input_link:hover {
+    color: rgb((238,36,0,0.6));
+}
 
 
 

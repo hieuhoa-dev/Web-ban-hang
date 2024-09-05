@@ -131,12 +131,11 @@
 }
 
 .home-filter {
-    position: relative;
     background-color: rgb(0,0,0,0.04);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 12px 22px;
+    padding: 12px 10px;
     border-radius: 3px;
 
 }
@@ -153,7 +152,8 @@
 }
 
 .home-filter-btn {
-    margin-right: 12px;
+margin-right: 12px;
+    width: 80px;
 }
 
 .select-input__icon {
@@ -163,14 +163,7 @@
     top: 1px;
 }
 
-.select-input_list {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 100%;
-    background-color: var(--white-color);
-    border-radius: 3px;
-}
+
 
 
 
