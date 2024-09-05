@@ -48,6 +48,39 @@ html {
     width: 73.333%;
 }
 
+.btn {
+    min-width: 124px;
+    height:34px;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    padding:  12px;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    background-color: var(--white-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6rem;
+}
+
+/*List Selection  */
+.select-input {
+    height:34px;
+    padding: 0 12px;
+    border-radius: 3px;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.select-input_label {
+    font-size: 1.4 rem;
+}
 
 
 

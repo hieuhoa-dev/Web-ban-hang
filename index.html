@@ -67,7 +67,7 @@
     
     <div class="container">
         <div class="grid">
-            <div class="grid__row">
+            <div class="grid__row app_content">
                 <div class="grid__column-2">
                     <nav class="category">
                         <h3 class="category_heading">
@@ -94,10 +94,34 @@
                 <div class="grid__column-10">  
                     <div class="home-filter">
                         <span class="home-filter__label">Sắp xếp theo</span>
-                        <button class="btn">Phổ biến</button>
-                        <button class="btn">Mới nhất</button>
-                        <button class="btn">Bán chạy</button>
-                        
+                        <button class="home-filter-btn btn">Phổ biến</button>
+                        <button class="home-filter-btn btn">Mới nhất</button>
+                        <button class="home-filter-btn btn">Bán chạy</button>
+                        <div class="select-input">
+                            <span class="select-input_label">Giá</span>
+                            <i class="select-input__icon fav fa-angle-down"></i>
+                            <ul class="select-input_list">
+                                <li class="select-input_item">
+                                    <a href="" class="select-input_link">Giá: Thấp đến cao</a>
+                                    <a href="" class="select-input_link">Giá: Cao đến thấp</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="home-filter__page"> </div>
+                        <span class="home-filter__page-num">
+                            <span class="home-filter__page-num-current">1</span>
+                            /
+                            14
+                            <div class="home-filter__page-control">
+                                <a href="" class="home-filter__page-btton">
+                                    <i class="fav fa-angle-left"></i>
+                                </a>
+                                <a href="" class="home-filter__page-btton">
+                                    <i class="fav fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </span>
+
                     </div>
                 </div>
             </div> 

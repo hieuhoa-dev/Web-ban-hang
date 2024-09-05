@@ -122,28 +122,55 @@
    font-size: 1.4em;    
    border-bottom: 2px solid rgb(0,0,0,0.05);  
    padding: 12px 16px;
+    margin-top: 0;
 }
 
-.btn {
-    min-width: 124px;
-    height:34px;
-    text-decoration: none;
-    border: none;
-    border-radius: 2px;
-    font-size: 1.5rem;
-    padding:  12px;
-    outline: none;
-    cursor: pointer;
-    color: var(--white-color);
-    display: inline-flex;
+
+.app_content {
+    padding-top: 36px;
+}
+
+.home-filter {
+    position: relative;
+    background-color: rgb(0,0,0,0.04);
+    display: flex;
     align-items: center;
-    justify-content: center;
-    line-height: 1.6rem;
-    
-
+    justify-content: space-between;
+    padding: 12px 22px;
+    border-radius: 3px;
 
 }
 
+.home-filter__page {
+    display: flex;
+    align-items: center;
+}
+
+.home-filter__label {
+    font-size: 1.4rem;
+    color: #555;
+    margin-right: 16px;
+}
+
+.home-filter-btn {
+    margin-right: 12px;
+}
+
+.select-input__icon {
+    font-size: 1.4rem;
+    color:rgb(133,133,133);
+    position: relative;
+    top: 1px;
+}
+
+.select-input_list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background-color: var(--white-color);
+    border-radius: 3px;
+}
 
 
 
