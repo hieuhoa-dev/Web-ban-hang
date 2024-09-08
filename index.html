@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Đặt web về mặt định, bỏ các khoản trắng -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/img">
@@ -13,125 +16,304 @@
     <!-- Font chữ -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    
-    <!-- icon -->
-     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.6.0-web/css/all.min.css">
-</head>
-<body>
-   <div class="app">
-    <header class="header">
-        <div class="grid">
-            <nav class="header__navbar">
-                <ul class="header__navbar-list">
-                    <li class="heder__navbar-item heder__navbar-item--separate">Vào cửa hàng trên ứng dụng</li>
-                    <li class="heder__navbar-item">
-                        Kết nối
-                        <a href="" class="header__navbar-icon-link"> 
-                            <i class="fa-brands fa-facebook"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                    </li>
-                </ul>
-    
-                <ul class="header__navbar-list">
-                    <li class="heder__navbar-item heder__navbar-item--notify">
-                        <i class="fa-solid fa-bell"></i>
-                        <a href="" class="heder__navbar-item--link ">Thông báo</a>
-                        <div class="header_notify">
-                            <header class="header_notify-header">
-                                <h3> Thông báo mới nhận</h3>
-                            </header>
-                            <ul class="hear_notify-list">
-                                <span class="hear_notify-info">
-                                    Sản phẩm 1
-                                </span>
-                                <span class="hear_notify-info">
-                                    Sản phẩm 2
-                                </span>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="heder__navbar-item">
-                        <i class="fa-solid fa-handshake-angle"></i>
-                        <a href="" class="heder__navbar-item--link">Trợ giúp</a>
-                    </li>
-                    <li class="heder__navbar-item heder__navbar-item--bolder
-                                heder__navbar-item--separate">Đăng kí</li>
-                    <li class="heder__navbar-item heder__navbar-item--bolder">Đăng nhập</li>
-                    
-                </ul>
-            </nav>
-        </div>
-    </header>
-    
-    <div class="container">
-        <div class="grid">
-            <div class="grid__row app_content">
-                <div class="grid__column-2">
-                    <nav class="category">
-                        <h3 class="category_heading">
-                            <i class="fas fa-list"></i>
-                            DANH MỤC
-                        </h3>
-                        <ul class="category-list">
-                            <li class="category-item">
-                                <a href="" class="category-item__link category-item__link-active">Quần áo</a>
-                            </li>
-                            <li class="category-item">
-                                <a href="" class="category-item__link">Giày dép</a>
-                            </li>
-                            <li class="category-item">
-                                <a href="" class="category-item__link">Thiết bị điện tử</a>
-                            </li>
-                            <li class="category-item">
-                                <a href="" class="category-item__link">Mỹ phẩm</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-    
-                <div class="grid__column-10">  
-                    <div class="home-filter">
-                        <span class="home-filter__label">Sắp xếp theo</span>
-                        <button class="home-filter-btn btn">Phổ biến</button>
-                        <button class="home-filter-btn btn">Mới nhất</button>
-                        <button class="home-filter-btn btn">Bán chạy</button>
-                        <div class="select-input">
-                            <span class="select-input_label">Giá</span>
-                            <i class="select-input__icon fas fa-angle-down"></i>
-                            <ul class="select-input_list">
-                                <li class="select-input_item">
-                                    <a href="" class="select-input_link">Giá: Thấp đến cao</a>
-                                </li>
-                                <li class="select-input_item">
-                                    <a href="" class="select-input_link">Giá: Cao đến thấp</a>
-                                </li>  
-                            </ul>
-                        </div>
-                        <div class="home-filter__page"> </div>
-                        <span class="home-filter__page-num">
-                            <span class="home-filter__page-num-current">1</span>
-                            /
-                            14
-                            <div class="home-filter__page-control">
-                                <a href="" class="home-filter__page-btton">
-                                    <i class="fas fa-angle-left"></i>
-                                </a>
-                                <a href="" class="home-filter__page-btton">
-                                    <i class="fas fa-angle-right"></i>
-                                </a>
-                            </div>
-                        </span>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 
+    <!-- icon -->
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.6.0-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="heder__navbar-item heder__navbar-item--separate">Vào cửa hàng trên ứng dụng</li>
+                        <li class="heder__navbar-item">
+                            Kết nối
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="header__navbar-list">
+                        <li class="heder__navbar-item heder__navbar-item--notify">
+                            <i class="fa-solid fa-bell"></i>
+                            <a href="" class="heder__navbar-item--link ">Thông báo</a>
+                            <div class="header_notify">
+                                <header class="header_notify-header">
+                                    <h3> Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="hear_notify-list">
+                                    <span class="hear_notify-info">
+                                        Sản phẩm 1
+                                    </span>
+                                    <span class="hear_notify-info">
+                                        Sản phẩm 2
+                                    </span>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="heder__navbar-item">
+                            <i class="fa-solid fa-handshake-angle"></i>
+                            <a href="" class="heder__navbar-item--link">Trợ giúp</a>
+                        </li>
+                        <li class="heder__navbar-item heder__navbar-item--bolder
+                                heder__navbar-item--separate">Đăng kí</li>
+                        <li class="heder__navbar-item heder__navbar-item--bolder">Đăng nhập</li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="grid">
+                <div class="grid__row app_content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category_heading">
+                                <i class="fas fa-list"></i>
+                                DANH MỤC
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item">
+                                    <a href="" class="category-item__link category-item__link-active">Quần áo</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Giày dép</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Thiết bị điện tử</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Mỹ phẩm</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter-btn btn">Phổ biến</button>
+                            <button class="home-filter-btn btn">Mới nhất</button>
+                            <button class="home-filter-btn btn">Bán chạy</button>
+                            <div class="select-input">
+                                <span class="select-input_label">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                                <ul class="select-input_list">
+                                    <li class="select-input_item">
+                                        <a href="" class="select-input_link">Giá: Thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input_item">
+                                        <a href="" class="select-input_link">Giá: Cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-num-current">1</span>
+                                    /
+                                    14
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btton home-filter__page-btton--disabled">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btton">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img"></div>
+                                        <div class="home-product-item_name"> Sản phẩm</div>
+                                    </div>
+                                </div>  
+
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
+        <footer class="footer">
+
+        </footer>
     </div>
-    <footer class="footer">
-      
-    </footer>
-   </div>
 </body>
+
 </html>

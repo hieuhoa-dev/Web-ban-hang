@@ -139,12 +139,6 @@
 
 }
 
-.home-filter__page {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-}
-
 .home-filter__label {
     font-size: 1.4rem;
     color: #555;
@@ -163,7 +157,98 @@
     top: 1px;
 }
 
+.home-filter__page {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
 
+.home-filter__page-num {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    margin-right: 22px;
+}
+
+.home-filter__page-num-current {
+    color: red;
+}
+
+.home-filter__page-control {
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    width: 72px;
+    height: 36px;
+}
+
+.home-filter__page-btton {
+    flex: 1;
+    display: flex;
+    background-color: var(--white-color);
+    text-decoration: none;
+}
+
+.home-filter__page-btton:first-child {
+    border-right:1px solid #eee ;
+}
+
+.home-filter__page-icon {
+    margin: auto;
+    font-size: 1.4rem;
+    color: #555;
+}
+
+.home-filter__page-btton--disabled {
+    background-color: #f9f9f9; 
+    cursor: default;
+}
+
+.home-filter__page-btton--disabled .home-filter__page-icon {
+    color: #ccc;
+}
+
+
+/* Sản phẩm */
+.home-product-item {
+    margin: 10px 0;
+    height: 300px;
+    display: flex;
+    background-color: var(--white-color);
+    flex-direction: column;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+
+@keyframes appear{
+    from {
+        opacity: 0.5;
+        /* transform: translateY(100px); */
+        transform: translateX(-100px);
+    }
+    
+    to{
+        opacity: 1;
+        /* transform: translateY(0px);  */
+        transform: translateX(0px); 
+    }
+}
+
+.home-product-item__img {
+    height: 80px;
+    flex: 2;
+    background-color: rgb(0,0,0,0.3);
+}
+
+.home-product-item_name {
+    font-size: 1.4rem;
+    flex: 1;
+    color: var(--text-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
