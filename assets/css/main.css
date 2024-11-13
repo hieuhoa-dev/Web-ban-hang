@@ -10,7 +10,7 @@
 }
 
 
-.heder__navbar-item:hover,.heder__navbar-item--link:hover {
+.heder__navbar-item:hover,.heder__navbar-item--link:hover,.Login-nav:hover {
     cursor: pointer;
     color: rgb(255,255,255,0.7);
 }
@@ -60,6 +60,13 @@
 
 .heder__navbar-item--notify:hover .header_notify {
     display: block;
+}
+.Login-nav {
+    display: inline-block;
+    font-size: 1.4rem;
+    color:var(--white-color);
+    text-decoration: none; 
+    font-weight: 300;
 }
 
 .header_notify {
@@ -229,6 +236,8 @@
 }
 
 
+
+
 /* Sản phẩm */
 .home-product-item {
     margin: 10px 0;
@@ -363,3 +372,4 @@
     font-size: 1.4rem;
     color: var(--white-color);
 }
+

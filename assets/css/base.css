@@ -10,6 +10,11 @@
     --header-with-search-height:calc(var(--header-height) - var(--navbar-height));
 
 }
+.login {
+    overflow: hidden;
+    margin: 0;
+    height: 898px;
+}
 
 * {
     /*Tất cả box-sizing kế thừa từ html  */
@@ -98,7 +103,7 @@ html {
     position: absolute;
     left: 0;
     right: 0;
-    top: 25px;
+    top: 22px;
     background-color: var(--white-color);
     border-radius: 3px;
     padding: 8px 16px;
@@ -124,6 +129,7 @@ html {
 .select-input_link:hover {
     color: red;
 }
+
 
 
 
